@@ -17,7 +17,7 @@ spec:
       - name: tetris
         image: chinnalaharika/styling:catalog-v1
         ports:
-        - containerPort: 80   # Use port 3000
+        - containerPort: 3000   # Use port 3000
 
 ---
 apiVersion: v1
